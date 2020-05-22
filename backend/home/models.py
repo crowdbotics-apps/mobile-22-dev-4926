@@ -8,6 +8,10 @@ from django.db import models
 
 class CustomText(models.Model):
     title = models.CharField(max_length=150,)
+    nhhghgh = models.BigIntegerField(null=True, blank=True,)
+    hghghhgh = models.BigIntegerField(null=True, blank=True,)
+    hghghgh = models.BigIntegerField(null=True, blank=True,)
+    jhjhjhjh = models.BigIntegerField(null=True, blank=True,)
 
     def __str__(self):
         return self.title
